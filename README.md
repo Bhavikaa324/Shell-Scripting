@@ -16,7 +16,8 @@
 - `ps -ef` : Lists all running processes with full details.  
 - `ps -ef | grep "processname"` : Searches for a specific process by name.  
 - `kill <pid>` : Terminates the process with the given process ID.  
-- `trap` : Defines actions to take when the script receives specific signals. 
+- `trap` : Defines actions to take when the script receives specific signals.
+- `logrotate` : Manages and cleans up old log files automatically.
 
 #### Working with files and directories:
 - `touch filename` : Creates a new empty file.  
@@ -62,7 +63,9 @@
 
 #### Downloading and networking:
 - `curl` : Transfers data from or to a server using protocols like HTTP, FTP.  
-- `wget` : Downloads files from the web via HTTP, HTTPS, or FTP.  
+- `wget` : Downloads files from the web via HTTP, HTTPS, or FTP.
+- `traceroute <host>` : Shows the path and delay time packets take to reach another computer on the internet.  
+- `tracepath <host>` : Like `traceroute`, but easier to use and doesn't need admin rights.
 
 #### Permissions and privilege elevation:
 - `sudo` : Runs a command with superuser privileges.  

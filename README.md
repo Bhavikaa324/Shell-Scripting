@@ -18,7 +18,7 @@
 - `kill <pid>` : Terminates the process with the given process ID.  
 - `trap` : Defines actions to take when the script receives specific signals. 
 
-#### Working with files and directories
+#### Working with files and directories:
 - `touch filename` : Creates a new empty file.  
 - `vi filename` : Opens file in vi editor for editing.  
 - `wq!` : Saves and exits the vi editor forcefully.  
@@ -42,7 +42,7 @@
 - `mv file /path/to/dir` : Moves a file into another directory. 
 - `sort filename` : sorts the content of the file. 
 
-##### Shebangs and Shell Types
+##### Shebangs and Shell Types:
 - `#!/bin/bash` : Runs the script using the Bash shell.  
 - `#!/bin/dash` : Runs the script using Dash (a faster, lightweight shell).  
 - `#!/bin/sh` : Runs the script using the default system shell (usually Bash or Dash).  
